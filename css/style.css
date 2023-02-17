@@ -1,0 +1,464 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container {
+	width:1170px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0 15px 0 15px;
+}
+.flex-container {
+	display:flex;
+	flex-wrap:wrap;
+	padding:0 15px 0 15px;
+	margin:0 -15px 0 -15px;
+}
+.flex-item-1{
+	width:8.33%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item-2{
+	width:16.66%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item-3{
+	width:25%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item-4{
+	width:33.33%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item-5{
+	width:41.66%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item-6{
+	width:50%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item-7{
+	width:58.33%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item-8{
+	width:66.66%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item-9{
+	width:75%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item-10{
+	width:83.33%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item-11{
+	width:91.66%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+.flex-item-12{
+	width:100%;
+	flex:0 0 auto;
+	padding:0 15px 0 15px;
+}
+/* Header section */
+header {
+    background-color: black;
+}
+.logo {
+	height:30px;
+	background-color:blue;
+}
+.nav-links {
+	height:30px;
+	background-color:red;
+}
+.nav-button {
+	height:30px;
+	background-color:green;
+}
+/* Banner-section */
+section.banner-1 {
+	background-color:yellow;
+	padding:80px;
+}
+.justify-content{
+	justify-content:center;
+}
+.banner-content {
+	background-color:white;
+	height:220px;
+}
+.banner-box-1 {
+	background-color:red;
+	height:100px;
+	margin-top:20px;
+}
+.banner-box-2 {
+	background-color:red;
+	height:100px;
+	margin-top:20px;
+}
+.banner-box-3 {
+	background-color:red;
+	height:100px;
+	margin-top:20px;
+}
+.banner-box-4 {
+	background-color:red;
+	height:100px;
+	margin-top:20px;
+}
+.banner-box-5 {
+	background-color:red;
+	height:100px;
+	margin-top:20px;
+}
+/*About section */
+.about-section {
+	background-color:blue;
+	padding:70px;
+}
+.about-content {
+	background-color:yellow;
+	height:150px;
+}
+.about-image {
+	background-color:pink;
+	height:200px;
+}
+/* Icon section */
+.icons {
+	background-color:black;
+	padding:70px;
+}
+.icon-1 {
+	background-color:red;
+	height:40px;
+}
+.icon-2 {
+	background-color:red;
+	height:40px;
+}
+.icon-3 {
+	background-color:red;
+	height:40px;
+}
+.icon-4 {
+	background-color:red;
+	height:40px;
+}
+.icon-5{
+	background-color:red;
+	height:40px;
+}
+.icon-6 {
+	background-color:red;
+	height:40px;
+}
+.icon-slide {
+	background-color:white;
+	height:20px;
+	margin-top:20px;
+}
+/* Banner-2 */
+.achievement {
+	background-color:red;
+	padding:80px;
+}
+.content-base {
+	align-items:baseline;
+}
+.achievement-image {
+	background-color:green;
+	height:350px;
+}
+.achievement-content {
+	background-color:yellow;
+	height:350px;
+}
+.achievement-icon-1{
+	background-color:black;
+	height:80px;
+	margin-top:5px;
+}
+.achievement-icon-2{
+	background-color:black;
+	height:80px;
+	margin-top:5px;
+}
+.achievement-icon-3{
+	background-color:black;
+	height:80px;
+	margin-top:5px;
+}
+.achievement-icon-4{
+	background-color:black;
+	height:80px;
+	margin-top:5px;
+}
+.achievement-box-1 {
+	background-color:white;
+	height:80px;
+	margin-top:5px;	
+}
+.achievement-box-2 {
+	background-color:green;
+	height:80px;
+	margin-top:5px;
+}
+.achievement-box-3 {
+	background-color:blue;
+	height:80px;
+    margin-top:5px;
+}
+.achievement-box-4 {
+	background-color:black;
+	height:80px;
+	margin-top:5px;
+}
+/*our service */
+.services {
+	background-color:brown;
+	padding:80px;
+}
+.service-1 {
+	background-color:white;
+	height:170px;
+}
+.service-2 {
+	background-color:white;
+	height:170px;
+}
+.service-3 {
+	background-color:white;
+	height:170px;
+}
+.service-4 {
+	background-color:red;
+	height:170px;
+	margin-top:20px;
+}
+.service-5 {
+	background-color:red;
+	height:170px;
+	margin-top:20px;	
+}
+.service-6 {
+	background-color:red;
+	height:170px;
+	margin-top:20px;	
+}
+/* Call to action */
+.call-to-action {
+	background-color:grey;
+	padding:60px;
+}
+.call-function {
+	background-color:white;
+	height:60px;
+}
+/* Portfolio section */
+.portfolio {
+	background-color:black;
+	padding:100px;
+	margin-top:20px;
+}
+.portfolio-image-1 {
+	background-color:white;
+	height:350px;
+	margin-top:20px;
+}
+.portfolio-image-2 {
+	background-color:white;
+	height:400px;
+	margin-top:20px;
+}
+.portfolio-image-3 {
+	background-color:white;
+	height:200px;
+	margin-top:20px;
+}
+.portfolio-image-4 {
+	background-color:white;
+	height:200px;
+	margin-top:20px;
+}
+.portfolio-image-5 {
+	background-color:white;
+	height:400px;
+	margin-top:20px;
+}
+.portfolio-image-6 {
+	background-color:white;
+	height:140px;
+	margin-top:20px;
+}
+.portfolio-image-7 {
+	background-color:white;
+	height:200px;
+	margin-top:20px;
+}
+.portfolio-image-8 {
+	background-color:white;
+	height:200px;
+	margin-top:20px;
+}
+.portfolio-image-9 {
+	background-color:white;
+	height:200px;
+	margin-top:20px;
+}
+/* Goal section */
+.goal {
+	background-color:grey;
+	padding:70px;
+}
+.goal-image {
+	background-color:white;
+	height:200px;
+}
+.goal-heading {
+	background-color:blue;
+	height:20px;
+	margin-top:20px;
+}
+.goal-contents {
+	background-color:white;
+	height:180px;
+}
+.align-item {
+	align-items:center;
+}
+.goal-icon-1{
+	background-color:brown;
+	height:20px;
+}
+.goal-icon-2{
+	background-color:brown;
+	height:20px;
+}
+.goal-content-1{
+	background-color:brown;
+	height:20px;
+}
+.goal-content-2{
+	background-color:brown;
+	height:20px;
+}
+/* review */
+.review {
+	background-color:yellow;
+	padding:70px;
+}
+.review-image {
+	background-color:white;
+	height:30px;
+	margin-top:10px;
+}
+.review-content-1 {
+	background-color:white;
+	height:30px;
+	margin-top:10px;
+}
+
+.review-content-2 {
+	background-color:white;
+	height:30px;
+	margin-top:10px;
+}
+.column {
+	flex-direction:column;
+}
+/* our team view */
+.our-team {
+	background-color:grey;
+	padding:70px;
+}
+.walter-image {
+	background-color:white;
+	height:160px;
+}
+.sarah-image {
+	background-color:white;
+	height:160px;
+}
+.william-image {
+	background-color:white;
+	height:160px;
+}
+.amanda-image {
+	background-color:white;
+	height:160px;
+}
+/* Contact */
+.contact {
+	background-color:black;
+	padding:80px;
+}
+.map {
+	background-color:white;
+	height:150px;
+}
+.contact-details {
+	background-color:white;
+	height:200px;
+	margin-top:20px;
+}
+.message-details {
+	background-color:white;
+	height:250px;
+	margin-top:20px;
+}
+/* Useful links */
+.useful-lists {
+	background-color:yellow;
+	padding:100px;
+}
+.useful-list-1{
+	background-color:white;
+	height:100px;
+}
+.useful-list-2{
+	background-color:white;
+	height:100px;
+}
+.useful-list-3{
+	background-color:white;
+	height:100px;
+}
+.useful-list-4{
+	background-color:white;
+	height:100px;
+}
+/* Footer */
+.footer {
+	background-color:brown;
+	padding:30px;
+}
+.copyrights {
+	background-color:white;
+	height:20px;
+}
+.arrow {
+	background-color:white;
+	height:20px;
+}
+.base {
+	margin-bottom:-20px;
+}
